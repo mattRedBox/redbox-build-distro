@@ -38,6 +38,17 @@
 		<non.proxy.hosts>localhost</non.proxy.hosts>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>2.50.1</version>
+		</dependency>
 		<!-- ReDBox Core - We want to explicitly define versions here because ReDBox 
 			is listed as both a dependency and a parent. Some odd consequences of using 
 			${project.version} can result -->
@@ -259,6 +270,18 @@
           </exclusion>
           </exclusions>
         </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 	<profiles>
 		<profile>
