@@ -17,6 +17,7 @@ import java.net.URL;
 public class AutomatedHarnessTest {
     public static final String USERNAME = "mattRedBox";
     public static final String ACCESS_KEY = "806d2999-870b-418f-90d6-d1d7e5def45a";
+
     public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
 
     @Before
